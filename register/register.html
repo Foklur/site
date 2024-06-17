@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-reg.css">
+    <title>Registration</title>
+</head>
+
+<body>
+    <div class="register-form">
+        <h1>Registration</h1>
+        <form name="form-register" id="form-register">
+            <input placeholder="Email" type="text" name="email" id="email" required>
+            <br>
+            <input placeholder="Password" type="password" name="password" id="password" required>
+            <br>
+            <input placeholder="Confirm password" type="password" name="conpassword" id="conpassword" required>
+            <br>
+            <input type="checkbox" name="remember" id="remember"> Remember me
+            <br>
+            <button onclick="registerbutton(event)" type="submit">Sign up</button>
+        </form>
+        <p>Already have an account?<a href="/login/login.html" class="login-link">Login</a></p>
+    </div>
+
+    <script src="register.js"></script>
+</body>
+
+</html>

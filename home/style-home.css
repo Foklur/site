@@ -1,0 +1,92 @@
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            padding-bottom: 100px;
+            /* Додамо простір для футера */
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            height: 50px;
+        }
+
+        nav {
+            display: flex;
+            gap: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 5px 10px;
+        }
+
+        nav a:hover {
+            background-color: #575757;
+        }
+
+        .right {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .right a {
+            color: white;
+            text-decoration: none;
+            padding: 5px 10px;
+        }
+
+        .right a:hover {
+            background-color: #575757;
+        }
+
+        .content {
+            text-align: center;
+            margin: 50px 20px;
+        }
+
+        .content h1 {
+            font-size: 6em;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .content p {
+            font-size: 2.4em;
+            color: #555;
+            margin: 10px 0;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 10px;
+        }
+
+        .social-icons a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .social-icons img {
+            width: 30px;
+            height: 30px;
+        }
