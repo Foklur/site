@@ -1,0 +1,138 @@
+        body {
+            margin: 0;
+            padding: 0;
+            padding-bottom: 100px;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #333;
+            height: 50px;
+            color: white;
+            padding: 10px 20px;
+        }
+
+        nav {
+            display: flex;
+            gap: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+            padding: 5px 10px;
+        }
+
+        nav a:hover {
+            background-color: #575757;
+        }
+
+        .right {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .right a {
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+            padding: 5px 10px;
+        }
+
+        .right a:hover {
+            background-color: #575757;
+        }
+
+        .container {
+            text-align: center;
+            margin: 50px 20px;
+        }
+
+        .container h1 {
+            font-size: 3em;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .news-article {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            max-width: 600px;
+            margin: 20px auto;
+        }
+
+        .news-article img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        .news-article h2 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+
+        .news-article p {
+            color: #555;
+            margin-bottom: 10px;
+        }
+
+        .news-article a {
+            color: #1a0dab;
+            text-decoration: none;
+        }
+
+        .news-article a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 10px;
+        }
+
+        .social-icons a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .social-icons img {
+            width: 30px;
+            height: 30px;
+        }
+
+        .pagination {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .pagination button {
+            padding: 10px 20px;
+            background-color: #333;
+            font-size: 16px;
+            color: white;
+            border-radius: 5px;
+        }
